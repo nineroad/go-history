@@ -1,0 +1,5 @@
+-- The canonical DDL is maintained in server/schema/history.sql.
+-- Migration 003_normalize_history.ts applies it transactionally, backfills
+-- existing data and retains content_legacy. Do not execute the DDL alone
+-- against an existing application database.
+-- See docs/database-design.md and README.md for migration/rollback guidance.
